@@ -1,0 +1,14 @@
+/.idea/
+/.vscode/
+/.next/
+/node_modules/
+/out/
+
+*.map
+*.log
+*.swp
+*.lock
+
+._*
+.DS_Store
+Thumbs.db
