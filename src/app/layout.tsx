@@ -17,3 +17,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </html>
     );
 }
+
+// Route Segment Config
+// https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config
+export const dynamic = "auto";
+export const dynamicParams = true;
+export const revalidate = false;
+export const fetchCache = "auto";
+export const runtime = "nodejs";
+export const preferredRegion = "all";
